@@ -3,7 +3,10 @@
   (Universe Maker/Green Eye)</h1>
 
 ### :man_technologist: About Me:
-Research Engineer of Convergence Research Center for College Engineering of Information & Electronics Research Institute of KAIST(Korea Advanced Institute of Science and Technology)
+Research Engineer of 
+Convergence Research Center for College of Engineering of 
+Information & Electronics Research Institute of 
+KAIST(Korea Advanced Institute of Science and Technology)
 
 <!-- - :school: -->
 - :zap: In my free time, I'm make a simple project and post it on github.
