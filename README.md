@@ -3,9 +3,9 @@
   (Universe Maker/Green Eye)</h1>
 
 ### :man_technologist: About Me:
-Research Engineer of 
-Convergence Research Center for College of Engineering of 
-Information & Electronics Research Institute of 
+Research Engineer of <br/>
+Convergence Research Center for College of Engineering of <br/>
+Information & Electronics Research Institute of <br/>
 KAIST(Korea Advanced Institute of Science and Technology)
 
 <!-- - :school: -->
