@@ -18,7 +18,8 @@ KAIST(Korea Advanced Institute of Science and Technology)
 <p align="left">
 <a href="https://orcid.org/0009-0002-3044-2689" target="blank"><img align="center" src="https://info.orcid.org/wp-content/uploads/2021/01/orcid_128x128.png" alt="daeseung_park" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/daeseungpark" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="daeseung-park-393a68207" height="30" width="40" /></a>
-<a href="https://seleos.net" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="daeseung-park" height="30" width="40" /></a>
+<a href="https://seleos.net" target="blank"><img align="center" src="https://cdn3.iconfinder.com/data/icons/seo-162/96/monitor_screen_computer_search_find_browser_website-512.png" alt="daeseung-park" height="30" width="40" /></a>
+<a href="https://huggingface.co/dapark" target="blank"><img align="center" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="daeseung-park" height="30" width="40" /></a>
 </p>
 
 <hr>
