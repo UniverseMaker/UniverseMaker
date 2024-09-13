@@ -3,14 +3,11 @@
   (Universe Maker/Green Eye)</h1>
 
 ### :man_technologist: About Me:
-Research Engineer, 
-Convergence Research Center for College of Engineering of
-Information & Electronics Research Institute of
-KAIST(Korea Advanced Institute of Science and Technology)
+Research Engineer
 
 <!-- - :school: -->
 - :zap: In my free time, I'm make a simple project and post it on github.
-- 📫 How to reach me: **eosonox@gmail.com** or **dspark@kaist.ac.kr**
+- 📫 How to reach me: **dspark@daeseungpark.com** or **dspark@kaist.ac.kr**
 
 <hr>
 
