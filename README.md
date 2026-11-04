@@ -19,13 +19,14 @@
 class DaeseungPark(Researcher):
     alias       = ("Universe Maker", "The Green Eye")
     role        = "AI & Software Systems Engineer"
-    affiliation = "KAIST · Convergence Research Center, Information & Electronics Research Institute"
+    affiliation = "KAIST · Convergence Research Center"
     based_in    = "Daejeon, Korea 🇰🇷"
-    motto       = "문제의 본질을 코드로 옮긴다."          # turning the essence of a problem into code
-    working_on  = ["Generative AI & LLMs", "Time-series forecasting", "Conversational AI",
-                   "Knowledge graphs & GeoLLM", "mmWave indoor sensing", "Distributed simulation"]
+    motto       = "문제의 본질을 코드로 옮긴다."  # essence → code
+    working_on  = ["Generative AI & LLMs", "Time-series forecasting",
+                   "Conversational AI", "Knowledge graphs & GeoLLM",
+                   "mmWave indoor sensing", "Distributed simulation"]
     reach_me_at = ["dspark@daeseungpark.com", "dspark@kaist.ac.kr"]
-    side_quest  = "In my free time I build small, useful tools — and ship them right here."
+    side_quest  = "Small, useful tools, shipped right here."
 ```
 
 <img src="assets/highlights.svg" width="100%" alt="25 publications · 10 patents & software · 26 R&D projects · KAIST since 2023" />
