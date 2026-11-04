@@ -1,40 +1,170 @@
-<h1 align="center">Hi Everyone 👋<br/>
-  I'm Daeseung Park<br/>
-  (Universe Maker/Green Eye)</h1>
+<a href="https://daeseungpark.com">
+  <img src="assets/hero.svg" width="100%" alt="Daeseung Park — AI & Software Systems Engineer @ KAIST" />
+</a>
 
-### :man_technologist: About Me:
-Research Engineer
-
-<!-- - :school: -->
-- :zap: In my free time, I'm make a simple project and post it on github.
-- 📫 How to reach me: **dspark@daeseungpark.com** or **dspark@kaist.ac.kr**
-
-<hr>
-
-<h3 align="left"> :eyes: Connect with me:</h3>
-<p align="left">
-<a href="https://orcid.org/0009-0002-3044-2689" target="blank"><img align="center" src="https://info.orcid.org/wp-content/uploads/2021/01/orcid_128x128.png" alt="daeseung_park" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/daeseungpark" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="daeseung-park-393a68207" height="30" width="40" /></a>
-<a href="https://codespectrum.net" target="blank"><img align="center" src="https://cdn3.iconfinder.com/data/icons/seo-162/96/monitor_screen_computer_search_find_browser_website-512.png" alt="daeseung-park" height="30" width="40" /></a>
-<a href="https://huggingface.co/daeseungpark" target="blank"><img align="center" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="daeseung-park" height="30" width="40" /></a>
-<a href="https://hub.docker.com/u/daeseungpark" target="blank"><img align="center" src="https://www.svgrepo.com/show/349342/docker.svg" alt="daeseung-park" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://daeseungpark.com"><img src="https://img.shields.io/badge/daeseungpark.com-0d1030?style=for-the-badge&logo=googlechrome&logoColor=8b9bff" alt="Website" /></a>
+  <a href="https://scholar.google.com/citations?hl=ko&user=qVom0QUAAAAJ"><img src="https://img.shields.io/badge/Scholar-0d1030?style=for-the-badge&logo=googlescholar&logoColor=8b9bff" alt="Google Scholar" /></a>
+  <a href="https://orcid.org/0009-0002-3044-2689"><img src="https://img.shields.io/badge/ORCID-0d1030?style=for-the-badge&logo=orcid&logoColor=a6ce39" alt="ORCID" /></a>
+  <a href="https://www.linkedin.com/in/daeseungpark"><img src="https://img.shields.io/badge/LinkedIn-0d1030?style=for-the-badge&logo=linkedin&logoColor=8b9bff" alt="LinkedIn" /></a>
+  <a href="https://huggingface.co/daeseungpark"><img src="https://img.shields.io/badge/Hugging_Face-0d1030?style=for-the-badge&logo=huggingface&logoColor=ffd21e" alt="Hugging Face" /></a>
+  <a href="https://hub.docker.com/u/daeseungpark"><img src="https://img.shields.io/badge/Docker_Hub-0d1030?style=for-the-badge&logo=docker&logoColor=2496ed" alt="Docker Hub" /></a>
+  <a href="https://codespectrum.net"><img src="https://img.shields.io/badge/Blog-0d1030?style=for-the-badge&logo=wordpress&logoColor=34d399" alt="Blog" /></a>
+  <a href="mailto:dspark@daeseungpark.com"><img src="https://img.shields.io/badge/Email-0d1030?style=for-the-badge&logo=maildotru&logoColor=34d399" alt="Email" /></a>
 </p>
 
-<hr>
+<br/>
 
-### :hammer_and_wrench: Languages and Tools:
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apple_objectivec/apple_objectivec-icon.svg" alt="objectivec" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://zapier.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg" alt="zapier" width="40" height="40"/> </a> </p>
+```python
+class DaeseungPark(Researcher):
+    alias       = ("Universe Maker", "The Green Eye")
+    role        = "AI & Software Systems Engineer"
+    affiliation = "KAIST · Convergence Research Center, Information & Electronics Research Institute"
+    based_in    = "Daejeon, Korea 🇰🇷"
+    motto       = "문제의 본질을 코드로 옮긴다."          # turning the essence of a problem into code
+    working_on  = ["Generative AI & LLMs", "Time-series forecasting", "Conversational AI",
+                   "Knowledge graphs & GeoLLM", "mmWave indoor sensing", "Distributed simulation"]
+    reach_me_at = ["dspark@daeseungpark.com", "dspark@kaist.ac.kr"]
+    side_quest  = "In my free time I build small, useful tools — and ship them right here."
+```
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=universemaker&show_icons=true&locale=en&layout=compact" alt="universemaker" /></p>
+<img src="assets/highlights.svg" width="100%" alt="25 publications · 10 patents & software · 26 R&D projects · KAIST since 2023" />
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=universemaker&show_icons=true&locale=en" alt="universemaker" /></p>
+## 🔭 Research Universe
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=universemaker&" alt="universemaker" /></p>
+<img src="assets/orbit.svg" width="100%" alt="Research universe orbit map" />
 
+## 📡 Latest Transmissions
 
-<hr>
+| | Signal | What happened |
+|:-:|---|---|
+| 🆕 | **IEEE Access** | Distributed mmWave radar for indoor human detection & geo-referencing — [read the paper →](https://daeseungpark.com/works/ieee-access-distributed-mmwave/) |
+| 🎤 | **ICECCME 2026** · Bali | Predictive load-balancing simulation with spatiotemporal graph neural networks (Oct 15–17, 2026) — [details →](https://daeseungpark.com/works/iceccme2026-predictive-load-balancing/) |
+| 🧪 | **Abliterated AI** | Public trial of an abliterated (uncensored) model for AI-safety research — [try it →](https://ai.daeseungpark.com/chat/) |
+| 🔬 | **LLM Research Platform** | Hosted workbench for testing and comparing LLMs — [open →](https://service.daeseungpark.com/rchat) |
 
-<h3 align="left">Support:</h3>
-<p><a href="https://ko-fi.com/daeseungpark"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="daeseungpark" /></a></p>
+<details>
+<summary><b>🚀 Current R&D missions</b> &nbsp;<sub>(click to expand)</sub></summary>
+<br/>
 
-<p><a href="https://www.buymeacoffee.com/daeseung park"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="daeseung park" /></a></p><br><br>
+| Mission | Sponsor | Period |
+|---|---|---|
+| City-safety AI models — development & field validation | Ministry of Trade, Industry and Energy | 2026.04 – 2026.12 |
+| K-AIX: address-intelligence ecosystem model | Ministry of Land, Infrastructure and Transport · LX | 2025.12 – 2026.03 |
+| Data-intelligence generation & operation | Ministry of the Interior and Safety | 2025.06 – 2026.12 |
+| AI-based digital-twin healthcare platform | Daejeon Metropolitan City · Daejeon TP | 2025.04 – 2025.12 |
+
+</details>
+
+## 🛰️ Featured Work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🕸️ [AddressKG](https://daeseungpark.com/works/pf-addresskg/)**<br/>
+<sub>National address knowledge graph on a national-standard ontology.</sub><br/>
+<img src="https://img.shields.io/badge/Neo4j-0d1030?style=flat-square&logo=neo4j&logoColor=4581c3"/> <img src="https://img.shields.io/badge/FastAPI-0d1030?style=flat-square&logo=fastapi&logoColor=009688"/> <img src="https://img.shields.io/badge/Python-0d1030?style=flat-square&logo=python&logoColor=ffd43b"/>
+
+</td>
+<td width="50%" valign="top">
+
+**🚨 [City-Safety AI API](https://daeseungpark.com/works/pf-citysafety-ai-api/)**<br/>
+<sub>Multimodal LLM serving for disaster perception across video, sensor, spatial and text data.</sub><br/>
+<img src="https://img.shields.io/badge/Multimodal_LLM-0d1030?style=flat-square&logo=openai&logoColor=34d399"/> <img src="https://img.shields.io/badge/Serving-0d1030?style=flat-square&logo=docker&logoColor=2496ed"/>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**🧪 [Universal LLM Test & Research Platform](https://github.com/UniverseMaker/Universal-LLM-Test-Research-Platform)**<br/>
+<sub>Bring-your-own-key workbench for any OpenAI-compatible API: chat, hybrid & graph RAG, agents, evaluation, full request inspector.</sub><br/>
+<img src="https://img.shields.io/badge/JavaScript-0d1030?style=flat-square&logo=javascript&logoColor=f7df1e"/> <img src="https://img.shields.io/badge/RAG-0d1030?style=flat-square&logo=databricks&logoColor=8b9bff"/>
+
+</td>
+<td valign="top">
+
+**🔐 [Universal Login & SSO Server](https://github.com/UniverseMaker/Universal-Login-SSO-Server)**<br/>
+<sub>Sign in once and get per-service secrets from the server, so API keys never ship in your frontend. PHP 7.2+, one MySQL DB.</sub><br/>
+<img src="https://img.shields.io/badge/PHP-0d1030?style=flat-square&logo=php&logoColor=8892bf"/> <img src="https://img.shields.io/badge/MySQL-0d1030?style=flat-square&logo=mysql&logoColor=4479a1"/>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**✍️ [Unslop](https://github.com/UniverseMaker/Unslop)**<br/>
+<sub>An AI-assisted Korean copy-editing tool for work and research documents (업무·연구자 전용 AI 윤문 도구).</sub><br/>
+<img src="https://img.shields.io/badge/Python-0d1030?style=flat-square&logo=python&logoColor=ffd43b"/> <img src="https://img.shields.io/badge/LLM-0d1030?style=flat-square&logo=anthropic&logoColor=d8b25e"/>
+
+</td>
+<td valign="top">
+
+**🏢 [AI Office](https://github.com/UniverseMaker/AI-Office)**<br/>
+<sub>DSPark's AI Office: a personal, self-hosted workspace for running AI tools in one place.</sub><br/>
+<img src="https://img.shields.io/badge/JavaScript-0d1030?style=flat-square&logo=javascript&logoColor=f7df1e"/> <img src="https://img.shields.io/badge/Agents-0d1030?style=flat-square&logo=probot&logoColor=34d399"/>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**💾 [EyeDrive](https://github.com/UniverseMaker/EyeDrive)** <img src="https://img.shields.io/github/stars/UniverseMaker/EyeDrive?style=flat-square&color=d8b25e&labelColor=0d1030&label=%E2%98%85"/><br/>
+<sub>Mount a WebDAV server as a real local drive on Windows 10/11 (rclone-based), fast enough for dev tools.</sub><br/>
+<img src="https://img.shields.io/badge/C%23-0d1030?style=flat-square&logo=dotnet&logoColor=a179dc"/>
+
+</td>
+<td valign="top">
+
+**🖥️ [ResSwitch](https://github.com/UniverseMaker/Display-Resolution-Changer-ResSwitch)**<br/>
+<sub>One-click and scheduled display-resolution switcher for Chrome Remote Desktop, with multi-monitor profiles.</sub><br/>
+<img src="https://img.shields.io/badge/C%23-0d1030?style=flat-square&logo=dotnet&logoColor=a179dc"/>
+
+</td>
+</tr>
+</table>
+
+<p align="right"><sub>…and <a href="https://github.com/UniverseMaker?tab=repositories">more in the repositories tab →</a></sub></p>
+
+## 🧰 Toolchain
+
+<table>
+<tr><td align="right"><sub><b>AI / ML</b></sub></td><td>
+<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv&theme=dark" height="40"/>
+<img src="https://img.shields.io/badge/Hugging_Face-0d1030?style=for-the-badge&logo=huggingface&logoColor=ffd21e" height="40"/>
+<img src="https://img.shields.io/badge/pandas-0d1030?style=for-the-badge&logo=pandas&logoColor=e70488" height="40"/>
+</td></tr>
+<tr><td align="right"><sub><b>Languages</b></sub></td><td>
+<img src="https://skillicons.dev/icons?i=c,cpp,cs,java,kotlin,js,php,bash&theme=dark" height="40"/>
+</td></tr>
+<tr><td align="right"><sub><b>Backend & Data</b></sub></td><td>
+<img src="https://skillicons.dev/icons?i=fastapi,laravel,nginx,mysql,postgres,sqlite&theme=dark" height="40"/>
+<img src="https://img.shields.io/badge/Neo4j-0d1030?style=for-the-badge&logo=neo4j&logoColor=4581c3" height="40"/>
+</td></tr>
+<tr><td align="right"><sub><b>Infra & Cloud</b></sub></td><td>
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,linux,git,aws,azure,gcp,firebase&theme=dark" height="40"/>
+</td></tr>
+<tr><td align="right"><sub><b>Devices & Apps</b></sub></td><td>
+<img src="https://skillicons.dev/icons?i=arduino,androidstudio,dotnet,html,css&theme=dark" height="40"/>
+</td></tr>
+</table>
+
+## 📊 Mission Telemetry
+
+<img src="assets/stats.svg" width="100%" alt="GitHub contribution telemetry" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UniverseMaker/UniverseMaker/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UniverseMaker/UniverseMaker/output/snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/UniverseMaker/UniverseMaker/output/snake-dark.svg" width="100%" alt="Contribution snake" />
+</picture>
+
+## ☕ Fuel the Rocket
+
+<p>
+  <a href="https://ko-fi.com/daeseungpark"><img src="https://img.shields.io/badge/Ko--fi-Support_me-ff5e5b?style=for-the-badge&logo=kofi&logoColor=white&labelColor=0d1030" alt="Ko-fi" /></a>
+  <a href="https://buymeacoffee.com/daeseungpark"><img src="https://img.shields.io/badge/Buy_me_a_coffee-☕-ffdd00?style=for-the-badge&logo=buymeacoffee&logoColor=ffdd00&labelColor=0d1030" alt="Buy me a coffee" /></a>
+</p>
+
+<img src="assets/footer.svg" width="100%" alt="Thanks for visiting" />

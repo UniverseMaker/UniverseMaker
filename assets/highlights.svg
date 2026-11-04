@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="Research output highlights">
+<defs><linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141838"/><stop offset="1" stop-color="#070914"/></linearGradient></defs>
+<style>
+.tw{animation:tw 3s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+.fade{animation:fade 1s ease-out both}@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}</style>
+<g class="fade" style="animation-delay:0.00s">
+  <rect x="0.5" y=".5" width="285.5" height="149" rx="16" fill="url(#tile)" stroke="#34d399" stroke-opacity=".35"/>
+  <rect x="22.0" y="22" width="34" height="4" rx="2" fill="#34d399"/>
+  <text x="22.0" y="84" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="46" font-weight="800" fill="#f3f4f6">25</text>
+  <text x="22.0" y="112" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#34d399">Publications</text>
+  <text x="22.0" y="134" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="13" fill="#9aa1ad">SCIE 6 · KCI 2</text>
+  <circle cx="256.5" cy="32" r="4" fill="#34d399" class="tw" style="animation-delay:0.0s"/>
+</g>
+<g class="fade" style="animation-delay:0.15s">
+  <rect x="305.0" y=".5" width="285.5" height="149" rx="16" fill="url(#tile)" stroke="#8b9bff" stroke-opacity=".35"/>
+  <rect x="326.5" y="22" width="34" height="4" rx="2" fill="#8b9bff"/>
+  <text x="326.5" y="84" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="46" font-weight="800" fill="#f3f4f6">10</text>
+  <text x="326.5" y="112" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#8b9bff">Patents &amp; SW</text>
+  <text x="326.5" y="134" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="13" fill="#9aa1ad">4 patents · 6 registered SW</text>
+  <circle cx="561.0" cy="32" r="4" fill="#8b9bff" class="tw" style="animation-delay:0.7s"/>
+</g>
+<g class="fade" style="animation-delay:0.30s">
+  <rect x="609.5" y=".5" width="285.5" height="149" rx="16" fill="url(#tile)" stroke="#d8b25e" stroke-opacity=".35"/>
+  <rect x="631.0" y="22" width="34" height="4" rx="2" fill="#d8b25e"/>
+  <text x="631.0" y="84" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="46" font-weight="800" fill="#f3f4f6">26</text>
+  <text x="631.0" y="112" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#d8b25e">R&amp;D Projects</text>
+  <text x="631.0" y="134" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="13" fill="#9aa1ad">national &amp; municipal</text>
+  <circle cx="865.5" cy="32" r="4" fill="#d8b25e" class="tw" style="animation-delay:1.4s"/>
+</g>
+<g class="fade" style="animation-delay:0.45s">
+  <rect x="914.0" y=".5" width="285.5" height="149" rx="16" fill="url(#tile)" stroke="#f472b6" stroke-opacity=".35"/>
+  <rect x="935.5" y="22" width="34" height="4" rx="2" fill="#f472b6"/>
+  <text x="935.5" y="84" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="46" font-weight="800" fill="#f3f4f6">2023–</text>
+  <text x="935.5" y="112" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#f472b6">KAIST</text>
+  <text x="935.5" y="134" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="13" fill="#9aa1ad">Research Engineer</text>
+  <circle cx="1170.0" cy="32" r="4" fill="#f472b6" class="tw" style="animation-delay:2.1s"/>
+</g>
+</svg>
