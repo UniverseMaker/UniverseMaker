@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 88" width="300" height="88" role="img" aria-label="Blog: codespectrum.net">
+<defs><clipPath id="c"><rect width="300" height="88" rx="18"/></clipPath><linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141838"/><stop offset="1" stop-color="#070914"/></linearGradient>
+<radialGradient id="o"><stop offset="0" stop-color="#34d399" stop-opacity=".30"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></radialGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<style>.sh{animation:sh 7s ease-in-out infinite}
+@keyframes sh{0%,62%{transform:translateX(-120%) skewX(-20deg)}100%{transform:translateX(140%) skewX(-20deg)}}</style>
+<g clip-path="url(#c)"><rect width="300" height="88" fill="url(#s)"/><ellipse cx="276" cy="0" rx="126" ry="84" fill="url(#o)"/>
+<circle cx="46" cy="44" r="27" fill="#34d399" fill-opacity=".14" stroke="#34d399" stroke-opacity=".5"/>
+<path transform="translate(31.0 29.0) scale(1.2500)" d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z" fill="#34d399"/>
+<text x="86" y="41" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="23" font-weight="700" fill="#f3f4f6">Blog</text>
+<text x="86" y="65" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="14" fill="#a4abb8">codespectrum.net</text>
+<rect class="sh" style="animation-delay:2.10s" width="150" height="88" fill="url(#sh)"/></g>
+<rect x=".5" y=".5" width="299" height="87" rx="18" fill="none" stroke="#fff" stroke-opacity=".09"/>
+</svg>

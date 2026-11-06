@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 88" width="300" height="88" role="img" aria-label="Website: daeseungpark.com">
+<defs><clipPath id="c"><rect width="300" height="88" rx="18"/></clipPath><linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141838"/><stop offset="1" stop-color="#070914"/></linearGradient>
+<radialGradient id="o"><stop offset="0" stop-color="#8b9bff" stop-opacity=".30"/><stop offset="1" stop-color="#8b9bff" stop-opacity="0"/></radialGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<style>.sh{animation:sh 7s ease-in-out infinite}
+@keyframes sh{0%,62%{transform:translateX(-120%) skewX(-20deg)}100%{transform:translateX(140%) skewX(-20deg)}}</style>
+<g clip-path="url(#c)"><rect width="300" height="88" fill="url(#s)"/><ellipse cx="276" cy="0" rx="126" ry="84" fill="url(#o)"/>
+<circle cx="46" cy="44" r="27" fill="#8b9bff" fill-opacity=".14" stroke="#8b9bff" stroke-opacity=".5"/>
+<path transform="translate(31.0 29.0) scale(1.2500)" d="M12 0C8.21 0 4.831 1.757 2.632 4.501l3.953 6.848A5.454 5.454 0 0 1 12 6.545h10.691A12 12 0 0 0 12 0zM1.931 5.47A11.943 11.943 0 0 0 0 12c0 6.012 4.42 10.991 10.189 11.864l3.953-6.847a5.45 5.45 0 0 1-6.865-2.29zm13.342 2.166a5.446 5.446 0 0 1 1.45 7.09l.002.001h-.002l-5.344 9.257c.206.01.413.016.621.016 6.627 0 12-5.373 12-12 0-1.54-.29-3.011-.818-4.364zM12 16.364a4.364 4.364 0 1 1 0-8.728 4.364 4.364 0 0 1 0 8.728Z" fill="#8b9bff"/>
+<text x="86" y="41" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="23" font-weight="700" fill="#f3f4f6">Website</text>
+<text x="86" y="65" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="14" fill="#a4abb8">daeseungpark.com</text>
+<rect class="sh" style="animation-delay:0.00s" width="150" height="88" fill="url(#sh)"/></g>
+<rect x=".5" y=".5" width="299" height="87" rx="18" fill="none" stroke="#fff" stroke-opacity=".09"/>
+</svg>

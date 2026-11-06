@@ -7,6 +7,10 @@ Generates every SVG used by README.md into ../assets:
   orbit.svg       - "Research Universe" orbit map (edit ORBITS below)
   footer.svg      - animated wave footer
   stats.svg       - live GitHub telemetry (contributions, streaks, languages, heatmap)
+  btn-* sec-* signal-* card-* journal-* stack whoami - see scripts/components.py
+
+README.md only references images inside this repository. Do not add remote image
+hosts: GitHub proxies them through camo, which returns 504 when the host is slow.
 
 Standard library only. Run locally or from GitHub Actions:
   python scripts/build.py            # everything
@@ -25,6 +29,9 @@ import re
 import sys
 import urllib.request
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import components  # noqa: E402
 
 USER = "UniverseMaker"
 JOINED = dt.date(2015, 9, 24)
@@ -47,10 +54,10 @@ HIGHLIGHTS = [  # (value, label, sub)
 ]
 
 ORBITS = [  # (rx, ry, [(angle_deg, label, color)])
-    (210, 82, [(200, "Conversational AI", EMERALD), (338, "AI Safety", GOLD), (245, "Prompt Engineering", INDIGO)]),
-    (365, 150, [(160, "Time-series Forecasting", INDIGO), (20, "Knowledge Graph · GeoLLM", EMERALD),
+    (210, 82, [(200, "Conversational AI", EMERALD), (338, "AI Safety", GOLD), (295, "Prompt Engineering", INDIGO)]),
+    (365, 150, [(140, "Time-series Forecasting", INDIGO), (20, "Knowledge Graph · GeoLLM", EMERALD),
                 (262, "Lightweight LMs", GOLD)]),
-    (530, 222, [(196, "mmWave Indoor Sensing", GOLD), (325, "Distributed Simulation", INDIGO),
+    (530, 222, [(172, "mmWave Indoor Sensing", GOLD), (325, "Distributed Simulation", INDIGO),
                 (128, "Digital Twin Healthcare", EMERALD), (52, "Edge AI", INDIGO)]),
 ]
 
@@ -149,12 +156,12 @@ def build_hero() -> None:
 
   <!-- text -->
   <g class="fade">
-    <text x="72" y="104" font-family="{MONO}" font-size="15" letter-spacing="4" fill="{EMERALD}">◉ UNIVERSE MAKER · THE GREEN EYE</text>
+    <text x="72" y="104" font-family="{MONO}" font-size="17" letter-spacing="4" fill="{EMERALD}">◉ UNIVERSE MAKER · THE GREEN EYE</text>
     <text x="68" y="182" font-family="{SANS}" font-size="70" font-weight="800" fill="url(#title)" letter-spacing="-1">Daeseung Park</text>
     <text x="72" y="226" font-family="{SANS}" font-size="24" fill="{INK}" opacity=".92">AI &amp; Software Systems Engineer <tspan fill="{INDIGO}" font-weight="700">@ KAIST</tspan></text>
   </g>
   <text x="72" y="296" font-family="{SANS}" font-size="22" fill="{MUTED}" clip-path="url(#type)"><tspan fill="{GOLD}" font-family="{MONO}">❯ </tspan>문제의 본질을 코드로 옮기는 일을 합니다.</text>
-  <text x="72" y="342" font-family="{MONO}" font-size="14" fill="{MUTED}" opacity=".85" letter-spacing="1">LLM · Time-series · Conversational AI · Knowledge Graph · mmWave Sensing</text>
+  <text x="72" y="342" font-family="{MONO}" font-size="15" fill="{MUTED}" opacity=".9" letter-spacing="1">LLM · Time-series · Conversational AI · Knowledge Graph · mmWave Sensing</text>
   <rect x="70" y="372" width="64" height="4" rx="2" fill="{EMERALD}"/><rect x="140" y="372" width="28" height="4" rx="2" fill="{INDIGO}"/><rect x="174" y="372" width="12" height="4" rx="2" fill="{GOLD}"/>
 </g>
 <rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="22" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
@@ -164,7 +171,7 @@ def build_hero() -> None:
 
 # ── highlights ──────────────────────────────────────────────────────────────
 def build_highlights() -> None:
-    w, h, gap = 1200, 150, 18
+    w, h, gap = 1200, 158, 18
     n = len(HIGHLIGHTS)
     tw = (w - gap * (n - 1)) / n
     colors = [EMERALD, INDIGO, GOLD, "#f472b6"]
@@ -177,8 +184,8 @@ def build_highlights() -> None:
   <rect x="{x+.5:.1f}" y=".5" width="{tw-1:.1f}" height="{h-1}" rx="16" fill="url(#tile)" stroke="{c}" stroke-opacity=".35"/>
   <rect x="{x+22:.1f}" y="22" width="34" height="4" rx="2" fill="{c}"/>
   <text x="{x+22:.1f}" y="84" font-family="{SANS}" font-size="46" font-weight="800" fill="{INK}">{esc(val)}</text>
-  <text x="{x+22:.1f}" y="112" font-family="{SANS}" font-size="17" font-weight="700" fill="{c}">{esc(label)}</text>
-  <text x="{x+22:.1f}" y="134" font-family="{SANS}" font-size="13" fill="{MUTED}">{esc(sub)}</text>
+  <text x="{x+22:.1f}" y="112" font-family="{SANS}" font-size="21" font-weight="700" fill="{c}">{esc(label)}</text>
+  <text x="{x+22:.1f}" y="141" font-family="{SANS}" font-size="16" fill="{MUTED}">{esc(sub)}</text>
   <circle cx="{x+tw-30:.1f}" cy="32" r="4" fill="{c}" class="tw" style="animation-delay:{i*.7:.1f}s"/>
 </g>""")
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="Research output highlights">
@@ -206,8 +213,12 @@ def build_orbit() -> None:
             a = math.radians(ang)
             x, y = cx + rx * math.cos(a), cy + ry * math.sin(a)
             r = 9 - k
-            lw = len(label) * 8.2 + 26
+            lw = len(label) * 9.7 + 28
             right = math.cos(a) >= -0.15
+            if right and x + 16 + lw > w - 8:
+                right = False
+            elif not right and x - 16 - lw < 8:
+                right = True
             lx = x + 16 if right else x - 16 - lw
             lx = max(8, min(w - 8 - lw, lx))
             ly = y - 15
@@ -217,8 +228,8 @@ def build_orbit() -> None:
   <circle cx="{x:.1f}" cy="{y:.1f}" r="{r*2.4:.1f}" fill="{col}" opacity=".18" class="tw" style="animation-delay:{delay:.2f}s"/>
   <circle cx="{x:.1f}" cy="{y:.1f}" r="{r}" fill="{col}"/>
   <circle cx="{x - r*.35:.1f}" cy="{y - r*.35:.1f}" r="{r*.35:.1f}" fill="#fff" opacity=".55"/>
-  <rect x="{lx:.1f}" y="{ly:.1f}" width="{lw:.1f}" height="30" rx="15" fill="#0b0e24" fill-opacity=".88" stroke="{col}" stroke-opacity=".55"/>
-  <text x="{lx + lw/2:.1f}" y="{ly + 20:.1f}" text-anchor="middle" font-family="{MONO}" font-size="13.5" fill="{INK}">{esc(label)}</text>
+  <rect x="{lx:.1f}" y="{ly:.1f}" width="{lw:.1f}" height="32" rx="16" fill="#0b0e24" fill-opacity=".88" stroke="{col}" stroke-opacity=".55"/>
+  <text x="{lx + lw/2:.1f}" y="{ly + 21.5:.1f}" text-anchor="middle" font-family="{MONO}" font-size="16" fill="{INK}">{esc(label)}</text>
 </g>""")
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="Research universe: Generative AI and LLMs at the core, surrounded by conversational AI, AI safety, time-series forecasting, knowledge graphs, mmWave sensing, distributed simulation and digital twin healthcare">
 <defs>
@@ -239,10 +250,9 @@ def build_orbit() -> None:
   <circle cx="{cx}" cy="{cy}" r="88" fill="url(#corona)" class="cor"/>
   <circle cx="{cx}" cy="{cy}" r="46" fill="url(#sun)"/>
   <text x="{cx}" y="{cy+9}" text-anchor="middle" font-family="{SANS}" font-size="26" font-weight="800" fill="#2a1a00">LLM</text>
-  <text x="{cx}" y="{cy+76}" text-anchor="middle" font-family="{MONO}" font-size="13" letter-spacing="2" fill="{GOLD}">GENERATIVE AI</text>
+  <text x="{cx}" y="{cy+76}" text-anchor="middle" font-family="{MONO}" font-size="15" letter-spacing="2" fill="{GOLD}">GENERATIVE AI</text>
   {''.join(planets)}
-  <text x="28" y="40" font-family="{MONO}" font-size="14" letter-spacing="4" fill="{EMERALD}">◉ RESEARCH UNIVERSE</text>
-  <text x="28" y="62" font-family="{SANS}" font-size="13" fill="{MUTED}">closer orbit = closer to the core work</text>
+  <text x="28" y="40" font-family="{SANS}" font-size="16" fill="{MUTED}">closer orbit = closer to the core work</text>
 </g>
 <rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="22" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
 </svg>"""
@@ -357,7 +367,7 @@ def fetch_languages() -> tuple[list[tuple[str, float]], int, int]:
     rest = sum(v for _, v in ranked[6:])
     if rest > 0.001:
         top.append(("Other", rest))
-    return top, len(own), stars
+    return top, len(own), stars, {r["name"]: r["stargazers_count"] for r in repos}
 
 
 def build_stats() -> None:
@@ -370,7 +380,7 @@ def build_stats() -> None:
     cur, longest, (ls, le) = streaks(allc, today)
     year_ago = today - dt.timedelta(days=364)
     last_year = sum(n for d, n in allc.items() if d >= year_ago)
-    langs, n_repos, stars = fetch_languages()
+    langs, n_repos, stars, star_map = fetch_languages()
 
     w, h = 1200, 470
     tiles = [
@@ -387,8 +397,8 @@ def build_stats() -> None:
         tl.append(f"""<g class="fade" style="animation-delay:{i*.12:.2f}s">
   <rect x="{x}" y="66" width="{tw}" height="112" rx="14" fill="#10142f" stroke="{c}" stroke-opacity=".3"/>
   <text x="{x+18}" y="116" font-family="{SANS}" font-size="34" font-weight="800" fill="{INK}">{esc(v)}</text>
-  <text x="{x+18}" y="143" font-family="{SANS}" font-size="14" font-weight="700" fill="{c}">{esc(lab)}</text>
-  <text x="{x+18}" y="162" font-family="{SANS}" font-size="12" fill="{MUTED}">{esc(sub)}</text>
+  <text x="{x+18}" y="143" font-family="{SANS}" font-size="17" font-weight="700" fill="{c}">{esc(lab)}</text>
+  <text x="{x+18}" y="165" font-family="{SANS}" font-size="15" fill="{MUTED}">{esc(sub)}</text>
 </g>""")
 
     # language bar
@@ -400,7 +410,7 @@ def build_stats() -> None:
         segs.append(f'<rect x="{x:.1f}" y="{by}" width="{max(sw-2, 1):.1f}" height="12" fill="{col}"/>')
         x += sw
         lx = bx + (i % 7) * 163
-        legend.append(f'<circle cx="{lx+6}" cy="{by+38}" r="5" fill="{col}"/><text x="{lx+18}" y="{by+43}" font-family="{SANS}" font-size="13" fill="{INK}">{esc(lang)} <tspan fill="{MUTED}">{frac*100:.1f}%</tspan></text>')
+        legend.append(f'<circle cx="{lx+6}" cy="{by+38}" r="5" fill="{col}"/><text x="{lx+18}" y="{by+43}" font-family="{SANS}" font-size="16" fill="{INK}">{esc(lang)} <tspan fill="{MUTED}">{frac*100:.1f}%</tspan></text>')
 
     # heatmap of the last 53 weeks as a starfield
     start = today - dt.timedelta(days=today.weekday() + 1 + 52 * 7) if today.weekday() != 6 else today - dt.timedelta(days=52 * 7)
@@ -428,23 +438,74 @@ def build_stats() -> None:
 .grow{{animation:grow 1.6s cubic-bezier(.2,.8,.2,1) both;transform-origin:{bx}px 0}}@keyframes grow{{from{{transform:scaleX(0)}}to{{transform:scaleX(1)}}}}</style>
 <g clip-path="url(#card)">
 <rect width="{w}" height="{h}" fill="url(#bg)"/>
-<text x="30" y="42" font-family="{MONO}" font-size="14" letter-spacing="4" fill="{EMERALD}">◉ MISSION TELEMETRY</text>
-<text x="{w-30}" y="42" text-anchor="end" font-family="{MONO}" font-size="12" fill="{MUTED}">synced {today:%Y-%m-%d} · github.com/{USER}</text>
+<text x="{w-30}" y="42" text-anchor="end" font-family="{MONO}" font-size="15" fill="{MUTED}">synced {today:%Y-%m-%d} · github.com/{USER}</text>
 {''.join(tl)}
-<text x="30" y="210" font-family="{SANS}" font-size="13" font-weight="700" fill="{MUTED}" letter-spacing="1">LANGUAGES</text>
+<text x="30" y="210" font-family="{SANS}" font-size="15" font-weight="700" fill="{MUTED}" letter-spacing="1">LANGUAGES</text>
 <g clip-path="url(#bar)"><g class="grow">{''.join(segs)}</g></g>
 {''.join(legend)}
-<text x="30" y="302" font-family="{SANS}" font-size="13" font-weight="700" fill="{MUTED}" letter-spacing="1">LAST 53 WEEKS · EVERY STAR IS A DAY</text>
+<text x="30" y="302" font-family="{SANS}" font-size="15" font-weight="700" fill="{MUTED}" letter-spacing="1">LAST 53 WEEKS · EVERY STAR IS A DAY</text>
 {''.join(dots)}
 </g>
 <rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="22" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
 </svg>"""
     write("stats.svg", svg)
+    components.build_cards(write, star_map)
     print(f"  total={total} last_year={last_year} streak={cur} longest={longest} ({ls}~{le}) repos={n_repos} stars={stars}")
+
+
+# ── journal: newest articles on daeseungpark.com ────────────────────────────
+SITE = "https://daeseungpark.com/"
+
+
+def fetch_journal(n: int = 3) -> list[dict]:
+    page = http_get(SITE)
+    grid = page[page.index('id="latestGrid"'):]
+    out = []
+    for m in re.finditer(r'<a href="(articles/[^"]+/)" class="post-card.*?</a>', grid, re.S):
+        b = m.group(0)
+
+        def pick(pat: str) -> str:
+            f = re.search(pat, b, re.S)
+            return html.unescape(re.sub(r"<[^>]+>", "", f.group(1))).strip() if f else ""
+
+        full = pick(r"<h3>(.*?)</h3>")
+        title, *rest = re.split(r":\s|\s—\s", full, maxsplit=1)
+        sub = rest[0] if rest else ""
+        out.append({"url": SITE + m.group(1), "title": title.strip(), "sub": sub.strip() or full,
+                    "cat": pick(r'<span class="cat(?: [^"]*)?">(.*?)</span>'),
+                    "num": pick(r'<span class="num">(.*?)</span>'),
+                    "read": pick(r'<span class="dot-sep">(.*?)</span>')})
+        if len(out) == n:
+            break
+    return out
+
+
+def update_journal() -> None:
+    """Keeps the last good cards if the site is unreachable from the runner."""
+    try:
+        articles = fetch_journal()
+    except Exception as exc:  # noqa: BLE001 - a site outage must not fail the daily build
+        print(f"  journal skipped: {exc}")
+        return
+    if not articles:
+        print("  journal skipped: no articles found")
+        return
+    components.build_journal(write, articles)
+    links = chr(10).join(
+        f'<a href="{esc(a["url"])}"><img src="assets/journal-{i+1}.svg" width="100%" alt="{esc(a["title"])}"/></a>'
+        for i, a in enumerate(articles))
+    readme = ROOT / "README.md"
+    old = readme.read_text(encoding="utf-8")
+    new = re.sub(r"(<!-- JOURNAL:START -->\s*).*?(\s*<!-- JOURNAL:END -->)",
+                 lambda m: m.group(1) + links + m.group(2), old, flags=re.S)
+    readme.write_text(new, encoding="utf-8")
 
 
 if __name__ == "__main__":
     only_stats = "--stats" in sys.argv
     if not only_stats:
         build_hero(); build_highlights(); build_orbit(); build_footer()
+        components.build_buttons(write); components.build_sections(write)
+        components.build_signals(write); components.build_stack(write); components.build_whoami(write)
+    update_journal()
     build_stats()

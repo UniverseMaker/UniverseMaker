@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 88" width="300" height="88" role="img" aria-label="Scholar: Google Scholar">
+<defs><clipPath id="c"><rect width="300" height="88" rx="18"/></clipPath><linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141838"/><stop offset="1" stop-color="#070914"/></linearGradient>
+<radialGradient id="o"><stop offset="0" stop-color="#8ab4f8" stop-opacity=".30"/><stop offset="1" stop-color="#8ab4f8" stop-opacity="0"/></radialGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<style>.sh{animation:sh 7s ease-in-out infinite}
+@keyframes sh{0%,62%{transform:translateX(-120%) skewX(-20deg)}100%{transform:translateX(140%) skewX(-20deg)}}</style>
+<g clip-path="url(#c)"><rect width="300" height="88" fill="url(#s)"/><ellipse cx="276" cy="0" rx="126" ry="84" fill="url(#o)"/>
+<circle cx="46" cy="44" r="27" fill="#8ab4f8" fill-opacity=".14" stroke="#8ab4f8" stroke-opacity=".5"/>
+<path transform="translate(31.0 29.0) scale(1.2500)" d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z" fill="#8ab4f8"/>
+<text x="86" y="41" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="23" font-weight="700" fill="#f3f4f6">Scholar</text>
+<text x="86" y="65" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="14" fill="#a4abb8">Google Scholar</text>
+<rect class="sh" style="animation-delay:0.35s" width="150" height="88" fill="url(#sh)"/></g>
+<rect x=".5" y=".5" width="299" height="87" rx="18" fill="none" stroke="#fff" stroke-opacity=".09"/>
+</svg>

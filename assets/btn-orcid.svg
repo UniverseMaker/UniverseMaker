@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 88" width="300" height="88" role="img" aria-label="ORCID: 0009-0002-3044-2689">
+<defs><clipPath id="c"><rect width="300" height="88" rx="18"/></clipPath><linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141838"/><stop offset="1" stop-color="#070914"/></linearGradient>
+<radialGradient id="o"><stop offset="0" stop-color="#a6ce39" stop-opacity=".30"/><stop offset="1" stop-color="#a6ce39" stop-opacity="0"/></radialGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<style>.sh{animation:sh 7s ease-in-out infinite}
+@keyframes sh{0%,62%{transform:translateX(-120%) skewX(-20deg)}100%{transform:translateX(140%) skewX(-20deg)}}</style>
+<g clip-path="url(#c)"><rect width="300" height="88" fill="url(#s)"/><ellipse cx="276" cy="0" rx="126" ry="84" fill="url(#o)"/>
+<circle cx="46" cy="44" r="27" fill="#a6ce39" fill-opacity=".14" stroke="#a6ce39" stroke-opacity=".5"/>
+<path transform="translate(31.0 29.0) scale(1.2500)" d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z" fill="#a6ce39"/>
+<text x="86" y="41" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="23" font-weight="700" fill="#f3f4f6">ORCID</text>
+<text x="86" y="65" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="14" fill="#a4abb8">0009-0002-3044-2689</text>
+<rect class="sh" style="animation-delay:0.70s" width="150" height="88" fill="url(#sh)"/></g>
+<rect x=".5" y=".5" width="299" height="87" rx="18" fill="none" stroke="#fff" stroke-opacity=".09"/>
+</svg>

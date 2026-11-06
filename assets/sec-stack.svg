@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 76" width="1200" height="76" role="img" aria-label="05. The Periodic Table of My Stack">
+<defs><clipPath id="c"><rect width="1200" height="76" rx="14"/></clipPath><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#34d399"/><stop offset=".5" stop-color="#8b9bff"/><stop offset="1" stop-color="#d8b25e"/></linearGradient></defs>
+<style>.ln{animation:ln 1.6s cubic-bezier(.2,.8,.2,1) both;transform-origin:0 0}@keyframes ln{from{transform:scaleX(0)}to{transform:scaleX(1)}}</style>
+<g clip-path="url(#c)"><rect width="1200" height="76" fill="#070914"/>
+<text x="26" y="48" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="24" font-weight="700" fill="#34d399">05</text>
+<text x="74" y="50" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="31" font-weight="800" fill="#f3f4f6">The Periodic Table of My Stack</text>
+<text x="1174" y="46" text-anchor="end" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="16" fill="#a4abb8">40 elements</text>
+<rect class="ln" y="72" width="1200" height="4" fill="url(#l)"/></g>
+<rect x=".5" y=".5" width="1199" height="75" rx="14" fill="none" stroke="#fff" stroke-opacity=".09"/>
+</svg>

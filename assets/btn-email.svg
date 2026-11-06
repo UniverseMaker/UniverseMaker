@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 88" width="300" height="88" role="img" aria-label="Email: dspark@daeseungpark.com">
+<defs><clipPath id="c"><rect width="300" height="88" rx="18"/></clipPath><linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141838"/><stop offset="1" stop-color="#070914"/></linearGradient>
+<radialGradient id="o"><stop offset="0" stop-color="#d8b25e" stop-opacity=".30"/><stop offset="1" stop-color="#d8b25e" stop-opacity="0"/></radialGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<style>.sh{animation:sh 7s ease-in-out infinite}
+@keyframes sh{0%,62%{transform:translateX(-120%) skewX(-20deg)}100%{transform:translateX(140%) skewX(-20deg)}}</style>
+<g clip-path="url(#c)"><rect width="300" height="88" fill="url(#s)"/><ellipse cx="276" cy="0" rx="126" ry="84" fill="url(#o)"/>
+<circle cx="46" cy="44" r="27" fill="#d8b25e" fill-opacity=".14" stroke="#d8b25e" stroke-opacity=".5"/>
+<path transform="translate(31.0 29.0) scale(1.2500)" d="M15.61 12c0 1.99-1.62 3.61-3.61 3.61-1.99 0-3.61-1.62-3.61-3.61 0-1.99 1.62-3.61 3.61-3.61 1.99 0 3.61 1.62 3.61 3.61M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12c2.424 0 4.761-.722 6.76-2.087l.034-.024-1.617-1.879-.027.017A9.494 9.494 0 0 1 12 21.54c-5.26 0-9.54-4.28-9.54-9.54 0-5.26 4.28-9.54 9.54-9.54 5.26 0 9.54 4.28 9.54 9.54a9.63 9.63 0 0 1-.225 2.05c-.301 1.239-1.169 1.618-1.82 1.568-.654-.053-1.42-.52-1.426-1.661V12A6.076 6.076 0 0 0 12 5.93 6.076 6.076 0 0 0 5.93 12 6.076 6.076 0 0 0 12 18.07a6.02 6.02 0 0 0 4.3-1.792 3.9 3.9 0 0 0 3.32 1.805c.874 0 1.74-.292 2.437-.821.719-.547 1.256-1.336 1.553-2.285.047-.154.135-.504.135-.507l.002-.013c.175-.76.253-1.52.253-2.457 0-6.617-5.383-12-12-12" fill="#d8b25e"/>
+<text x="86" y="41" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="23" font-weight="700" fill="#f3f4f6">Email</text>
+<text x="86" y="65" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="14" fill="#a4abb8">dspark@daeseungpark.com</text>
+<rect class="sh" style="animation-delay:2.45s" width="150" height="88" fill="url(#sh)"/></g>
+<rect x=".5" y=".5" width="299" height="87" rx="18" fill="none" stroke="#fff" stroke-opacity=".09"/>
+</svg>

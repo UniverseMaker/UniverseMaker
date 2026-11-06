@@ -225,12 +225,12 @@
   </g>
   <!-- text -->
   <g class="fade">
-    <text x="72" y="104" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="15" letter-spacing="4" fill="#34d399">◉ UNIVERSE MAKER · THE GREEN EYE</text>
+    <text x="72" y="104" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="17" letter-spacing="4" fill="#34d399">◉ UNIVERSE MAKER · THE GREEN EYE</text>
     <text x="68" y="182" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="70" font-weight="800" fill="url(#title)" letter-spacing="-1">Daeseung Park</text>
     <text x="72" y="226" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="24" fill="#f3f4f6" opacity=".92">AI &amp; Software Systems Engineer <tspan fill="#8b9bff" font-weight="700">@ KAIST</tspan></text>
   </g>
   <text x="72" y="296" font-family="'Segoe UI','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',Helvetica,Arial,sans-serif" font-size="22" fill="#9aa1ad" clip-path="url(#type)"><tspan fill="#d8b25e" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace">❯ </tspan>문제의 본질을 코드로 옮기는 일을 합니다.</text>
-  <text x="72" y="342" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="14" fill="#9aa1ad" opacity=".85" letter-spacing="1">LLM · Time-series · Conversational AI · Knowledge Graph · mmWave Sensing</text>
+  <text x="72" y="342" font-family="'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace" font-size="15" fill="#9aa1ad" opacity=".9" letter-spacing="1">LLM · Time-series · Conversational AI · Knowledge Graph · mmWave Sensing</text>
   <rect x="70" y="372" width="64" height="4" rx="2" fill="#34d399"/><rect x="140" y="372" width="28" height="4" rx="2" fill="#8b9bff"/><rect x="174" y="372" width="12" height="4" rx="2" fill="#d8b25e"/>
 </g>
 <rect x=".5" y=".5" width="1199" height="419" rx="22" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
